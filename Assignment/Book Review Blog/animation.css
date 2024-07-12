@@ -1,0 +1,40 @@
+.bubbleanim1{
+    animation: BubbleOdd 5s linear infinite;
+}
+.bubbleanim2{
+    animation: BubbleEven 5s linear infinite;
+}
+@keyframes BubbleOdd {
+    0%{
+        top: -40px;
+    }
+    25%{
+        top: -70px;
+    }
+    50%{
+        top: -100px;
+    }
+    75%{
+        top: -70px;
+    }
+    100%{
+        top: -40px;
+    }
+}
+@keyframes BubbleEven {
+    0%{
+        top: -100px;
+    }
+    25%{
+        top: -70px;
+    }
+    50%{
+        top: -40px;
+    }
+    75%{
+        top: -70px;
+    }
+    100%{
+        top: -100px;
+    }
+}

@@ -72,11 +72,39 @@
 .container1{
     display: flex;
     justify-content: space-around;
+    height: fit-content;
     margin: 0.8em;
     margin-top: 2em;
 }
 .box{
     height: 450px;
+    width: fit-content;
+    overflow: hidden;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.animimg{
+    height: 350px; 
+}
+.bubble-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bubble{
+    color: rgb(167, 26, 26);
+    background-color: white;
+    height: 180px;
+    width: 40px;
+    border-radius: 12px;
+    position: relative;
+}
+#bo{
+    top: -60px;
+}
+#be{
+    top: -160px;
 }
 .textbox{
     height: 450px;
@@ -84,7 +112,7 @@
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000;
-    text-align: center;
+    text-align: right;
 }
 .textbox span{
     color: rgb(23, 222, 240);
@@ -93,4 +121,26 @@
 }
 .textbox h3{
     color: lime;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+.container2 .cover img{
+    height: 320px;
+}
+.Book1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bookDetailHolder{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

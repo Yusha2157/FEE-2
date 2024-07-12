@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Book Review Blog </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
 </head>
 <body>
     <div class="Header">
@@ -27,10 +28,21 @@
     <div class="Mainbody">
         <div class="container1">
             <div class="box">
-                <img src="pexels-dzeninalukac-1005012.jpg" alt="" height="350px">
+                <img src="pexels-dzeninalukac-1005012.jpg" class="animimg" id="animimgid">
+                <div class="bubble-box">
+                    <div class="bubble" id="bo"></div>
+                    <div class="bubble" id="be"></div>
+                    <div class="bubble" id="bo"></div>
+                    <div class="bubble" id="be"></div>
+                    <div class="bubble" id="bo"></div>
+                    <div class="bubble" id="be"></div>
+                    <div class="bubble" id="bo"></div>
+                    <div class="bubble" id="be"></div>
+                </div>
             </div>
             <div class="textbox">
-                Welcome to <span>Book review blog ,</span> your premier destination for in-depth 
+                Welcome to <span>Book review blog</span>
+                <br>Your premier destination for in-depth 
                 and honest book reviews. Here, we delve into the heart of each story, 
                 exploring themes, characters, and writing styles to provide you with 
                 a thorough understanding of what to expect. Whether you're a fan of 
@@ -41,7 +53,30 @@
                 <h3>HAPPY READING!!</h3>
             </div>
         </div>
-        
+        <div class="container2">
+            <div class="Book1">
+                <div class="bookDetailHolder">
+                    <div class="cover">
+                        <img src="C:\Users\hp\OneDrive\Desktop\CSE\FEE II\Assignment\Book Review Blog\book covers\11122.jpg" alt="">
+                    </div>
+                    <div class="mainpoints">
+                        <h1 style="text-align: center;">HARRY POTTER</h1>
+                        <p style="font-family: Arial, Helvetica, sans-serif; text-align: center; text-transform: capitalize;">and the 
+                            <br> prisoner of azkaban</p>
+                        <p>J.K. Rowlings</p>
+                        <p>Fantasy | Wizards</p>
+                        <p>Rating</p>
+                        <p>Price</p>
+                    </div>
+                </div>
+                <div class="detailedreview">
+                    <h3>Book Review</h3>
+                    <p>Book Review</p>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
