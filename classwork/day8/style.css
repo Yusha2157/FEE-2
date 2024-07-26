@@ -1,0 +1,79 @@
+nav{
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: #6E3832;
+    z-index: 1000;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    color: white;
+    font-size: xx-large;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: relative;
+    top: 100px;
+    width: 77vw;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(239, 226, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    color: rgb(22,22,141);
+}
+.container{
+    top:200px;
+    height: fit-content;
+    width: 80vw;
+    position: relative;
+    display: grid;
+    margin: 20px auto;
+    grid-auto-rows: 200px;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.container .image{
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    position: relative;
+}
+.container img{
+    height: 190px;
+    width: 350px;
+    border-radius: 10px;
+}
+.container .image:hover{
+    opacity: 0.6;
+}
+.container .image .icon{
+    position: absolute;
+    background: white;
+    opacity: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 190px;
+    width: 350px;
+    top: 0;
+}
+.container .image .icon svg{
+    height: 80px;
+    width: auto;
+}
+.container .image .icon:hover{
+    opacity: 0.5;
+    color: black;
+}
